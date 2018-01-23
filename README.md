@@ -1,7 +1,7 @@
 # SteamAPI.io Discord Bot
 
 ### About
-Note: Following project requires a API Key from https://steamapi.io
+Note: Following project requires a API Key from https://steamapi.io as well created Bot on https://discordapp.com/developers/applications/me. For any questions, read documentations first!
 
 This is just a simple example for a working Discord bot. By default it will react on !price command and output embedded message with items and their prices. You can change appearance and some styling directly from a config file.
 
