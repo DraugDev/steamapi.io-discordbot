@@ -1,0 +1,10 @@
+{
+  "apps": [730, 570, 440],
+  "steamapi.io-key": "",
+  "discord-token": "",
+  "reconnect": true,
+  "command": "!price",
+  "icon": "https://steamapi.io/assets/img/favicons/favicon-32x32.png",
+  "color": "2196F3",
+  "results": 10
+}
