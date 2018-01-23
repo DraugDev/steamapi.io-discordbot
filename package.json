@@ -1,0 +1,30 @@
+{
+  "name": "steamapi.io-discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsieler/steamapi.io-discordbot.git"
+  },
+  "keywords": [
+    "steam",
+    "steamapi.io",
+    "prices",
+    "discord",
+    "bot"
+  ],
+  "author": "Jan Sieler <jan@sieler.im>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsieler/steamapi.io-discordbot/issues"
+  },
+  "homepage": "https://github.com/jsieler/steamapi.io-discordbot#readme",
+  "dependencies": {
+    "discord.io": "github:Woor/discord.io#gateway_v6",
+    "request": "^2.83.0"
+  }
+}
