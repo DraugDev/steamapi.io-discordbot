@@ -109,7 +109,10 @@ function get_prices() {
   config['apps'].forEach(function(appid) {
     request({
       'uri': 'https://api.steamapi.io/market/prices/' + appid + '?key=' + config['steamapi.io-key'],
-      'json': true,
+      'headers': {
+        'User-Agent': 'SteamAPI.io Discord Bot'
+      },
+      'json': true
     }, function(err, response, json) {
 
       // Some error happened
