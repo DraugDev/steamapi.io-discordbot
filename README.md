@@ -3,14 +3,14 @@
 ### About
 Note: Following project requires a API Key from https://steamapi.io as well created Bot on https://discordapp.com/developers/applications/me. For any questions, read documentations first!
 
-This is just a simple example for a working Discord bot. By default it will react on !price command and output embedded message with items and their prices. You can change appearance and some styling directly from a config file.
+This is just a simple example for a working Discord bot. By default it will react on `!price` (you may change it) command and output embedded message with `appid`, `market_hash_name` and their `prices`. You can change appearance and some styling directly from a config file.
 
 ### Setup
-Install latest version of NodeJS.
-Download or clone this project.
-Open config.json file and change required values (described in config section).
-Run command prompt (cmd.exe) and switch to project folder.
-Run following command:
+- Install latest version of NodeJS.
+- Download or clone this project.
+- Open config.json file and change required values (described in config section).
+- Run command prompt (cmd.exe) and switch to project folder.
+- Run following command:
 ```BASH
   npm i
   node index.js
