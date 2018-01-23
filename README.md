@@ -1,1 +1,1 @@
-# steamapi-discordbot
+# SteamAPI.io Discord Bot
